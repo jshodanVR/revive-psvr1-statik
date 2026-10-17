@@ -1,0 +1,3030 @@
+[
+  {
+    "kind": "texture",
+    "family": "plastic",
+    "source": "Deadlock/Content/Materials/Plastic/TEX_PlasticBase_D.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/E6bf10990d_______.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 2048,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "c7f2d9fc148aa97907b4c003a8c1b47c032e1fe80cea7d7c9b1801cbc1561c85",
+    "new_sha256": "df130da61fa5dce69a1e6b76ec56a1a867838d539731b612e0ff9c6f1e3a94d9"
+  },
+  {
+    "kind": "texture",
+    "family": "plastic",
+    "source": "Deadlock/Content/Materials/Plastic/TEX_PlasticBase_N.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/E4ef0afe85_______.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 2048,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "5db487b14161dcdfd9de944934f08f5517831bc6dd78e7d54e6b3e1b301135ec",
+    "new_sha256": "33cc75e70a18a9439f546d630cf7ffca15fbf375409debe627670215ac12c8c5"
+  },
+  {
+    "kind": "texture",
+    "family": "plastic",
+    "source": "Deadlock/Content/Materials/Plastic/TEX_PlasticBase_R.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/E489890565_______.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 2048,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "00ca12b185117e32348eacd912226251c44a94303f6c6f04753bbb8ccbb7e998",
+    "new_sha256": "5f68b5503157ce67100eacfe4e2344b35be524febfe4a8590641c5bff0848f03"
+  },
+  {
+    "kind": "texture",
+    "family": "plastic",
+    "source": "Deadlock/Content/Materials/Plastic/TEX_GrainyPlastic_N.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/E9bc7b4972_________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "b27fa259aa3ce13d959c2a46117af579307f397cb61ffb9b04076a253021aaa5",
+    "new_sha256": "feacccf02ffad1fac136e70e4d72d4f05b2e7fc758a7cf85642212a6747ed58c"
+  },
+  {
+    "kind": "texture",
+    "family": "plastic",
+    "source": "Deadlock/Content/Materials/Plastic/TEX_DirtyScratches_R.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/E3710049b0__________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 2048,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "7c9c75c187115c39b9ae6e42cc2a007adef326a0421a994230a11e15315c7192",
+    "new_sha256": "4ff902879fcb8026d4db63f699e821d97159b73ea2af1b056e700d81ab1140a5"
+  },
+  {
+    "kind": "texture",
+    "family": "metal",
+    "source": "Deadlock/Content/Materials/Metal/TEX_Painted_Metal_N.uasset",
+    "target": "Deadlock/Content/Materials/Metal/Ebc2f15d93_________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "28cd72dc7907ec9b2877bab7b595d5705ae3d95af3eb616bec9afb67278518c9",
+    "new_sha256": "fa80d4b49fb24b2671a0d34be14471a7b17f6884754de91f0ae67859902bac8e"
+  },
+  {
+    "kind": "texture",
+    "family": "metal",
+    "source": "Deadlock/Content/Materials/Metal/TEX_Steel_R.uasset",
+    "target": "Deadlock/Content/Materials/Metal/Ef07e0018d_.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "fb02576e3eceb0cd7574f58e8bf21a5ca8d3ad1102d99e1bffeb9bec231fb95b",
+    "new_sha256": "36290e499cc51bab154c0c21fb88f822f16ab7c1282350a0810926801a02424c"
+  },
+  {
+    "kind": "texture",
+    "family": "metal",
+    "source": "Deadlock/Content/Materials/Metal/TEX_MetalBase_D.uasset",
+    "target": "Deadlock/Content/Materials/Metal/Ee528a6942_____.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "bab9d547d1cca6ba63384ffd6f352ef9acfcbbb87718f6bdd08f631814bac29e",
+    "new_sha256": "9c5fce68d97b7067ae01e03f36c7520c5d35778ddce4a73e1dd8e73c18d4dd74"
+  },
+  {
+    "kind": "texture",
+    "family": "metal",
+    "source": "Deadlock/Content/Materials/Metal/TEX_MetalBase_N.uasset",
+    "target": "Deadlock/Content/Materials/Metal/Ed12954f11_____.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 2048,
+        "unchanged": false,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "97e81475821bce1e4731ecd09c3b08cfa33589531a746c572ca45d36baa8e34c",
+    "new_sha256": "f93f2b680ac0e748e276d369efee0f35b31b12acca99335739a3a99dac332d12"
+  },
+  {
+    "kind": "texture",
+    "family": "metal",
+    "source": "Deadlock/Content/Materials/Metal/TEX_MetalFloor_D.uasset",
+    "target": "Deadlock/Content/Materials/Metal/E32b4eb664______.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "891656494c3510874a6001dfcd0c28eb077d3afcee79481685ff50040deef401",
+    "new_sha256": "be087991166a48008182e341a67536283816fc523b20e36cb8aed36e14f2ca52"
+  },
+  {
+    "kind": "texture",
+    "family": "metal",
+    "source": "Deadlock/Content/Materials/Metal/TEX_MetalFloor_N.uasset",
+    "target": "Deadlock/Content/Materials/Metal/Ecfdd9f2d3______.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 2048,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "d6fac266a7a7150e0be76aaebb8e8def8fbffb894c27ad8c02a9a7b159450c41",
+    "new_sha256": "080f800cb0f5a1fff2886a72ccfee92837427ef604e0371889273675fd592c8d"
+  },
+  {
+    "kind": "texture",
+    "family": "metal",
+    "source": "Deadlock/Content/Materials/Metal/TEX_StylisedMetal_D.uasset",
+    "target": "Deadlock/Content/Materials/Metal/E91c0de703_________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 2048,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "be45866139da62b608e9201d5573e3a86ac3b35d6bc102904c1a4989ac778fc0",
+    "new_sha256": "58b2c69e7497ea722a8fa937de8abef591f6f24ac56d695b3b8208440f77adf9"
+  },
+  {
+    "kind": "texture",
+    "family": "wood",
+    "source": "Deadlock/Content/Materials/Wood/TEX_Plywood_01_D.uasset",
+    "target": "Deadlock/Content/Materials/Wood/E6c0739d87______.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 2048,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "2c46906107b1c648b54401708bc9d8540e67eca9421d03506a4bb5a4c2743820",
+    "new_sha256": "b302acf2ea63ab660b994ef5e22c64e9ff6d4ce9c80627a1ab92e098f829bd72"
+  },
+  {
+    "kind": "texture",
+    "family": "wood",
+    "source": "Deadlock/Content/Materials/Wood/TEX_Painted_Wood_N.uasset",
+    "target": "Deadlock/Content/Materials/Wood/E39220af0b________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "5d0a7c0282775caebdbf8bef5aae21839be865f21b3c8bcc172772f08d8cf618",
+    "new_sha256": "7666aa9b51193974836e1e637cc0e804c98fd248e0ae1dfc0e542ad59457b343"
+  },
+  {
+    "kind": "texture",
+    "family": "wood",
+    "source": "Deadlock/Content/Materials/Wood/TEX_Pinboard_01.uasset",
+    "target": "Deadlock/Content/Materials/Wood/E1723e71b0_____.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "27498d388473393d9fec2e5e15361feaac1fd4b90eb513a32a0d5ae7bb9494c4",
+    "new_sha256": "3c8073758e916c2786dbb3147b4af4a7c791ba3335a3ffc7a6a7b917b90b361e"
+  },
+  {
+    "kind": "texture",
+    "family": "wood",
+    "source": "Deadlock/Content/Materials/Wood/TEX_PlanksWorn_01_D.uasset",
+    "target": "Deadlock/Content/Materials/Wood/E191068820_________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "ec8c4970aa32eedf83b0449e9207d039da52e3c6b662261e78c6c63f2f4e5949",
+    "new_sha256": "95b459b726c719b7a8f7cfd4a8f2059ec5e38253dc3db35734e828fc1e92183f"
+  },
+  {
+    "kind": "texture",
+    "family": "wood",
+    "source": "Deadlock/Content/Materials/Wood/TEX_PlanksWorn_01_N.uasset",
+    "target": "Deadlock/Content/Materials/Wood/Ece6643eb8_________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "a199bc0e37ea4e4a408f0d220cea6adcd62b57e6aac2ac31e4dcb38f0e530a3e",
+    "new_sha256": "742b11b64068ed2ceb58f867e02324e2e2dfb0b641c3b75046fd62016dee1e42"
+  },
+  {
+    "kind": "texture",
+    "family": "wood",
+    "source": "Deadlock/Content/Materials/Wood/TEX_PlanksWorn_01_R.uasset",
+    "target": "Deadlock/Content/Materials/Wood/Ec285070a2_________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "a7744c6552c5a5e42dfd38dbecad6cbb066ec3d6d3a76b42cfba2d16b516c286",
+    "new_sha256": "ced00a819b582764613fd678632bc22c92da1ebaea6a1328ceabc089e2359b96"
+  },
+  {
+    "kind": "texture",
+    "family": "fabric",
+    "source": "Deadlock/Content/Materials/Fabric/TEX_BasicFabric_D.uasset",
+    "target": "Deadlock/Content/Materials/Fabric/E0b95e004c_______.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 2048,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "ce4d4ae18e3c942b9d51fa62347b7ece470953bcc69a97b346a0eb32e53e5d93",
+    "new_sha256": "fae59c7c7b05ad2a5275b9bd97e1d31594399d98f218e4859fb860222929b36a"
+  },
+  {
+    "kind": "texture",
+    "family": "fabric",
+    "source": "Deadlock/Content/Materials/Fabric/TEX_BasicFabric_N.uasset",
+    "target": "Deadlock/Content/Materials/Fabric/Efd24e64b8_______.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "27593d56b30e473ee7e027ea374cb78ea3fa6bd2a55617835bc8e99dc196ecea",
+    "new_sha256": "73fe942728f2e0b1a03ae1681522e14407d3f8f4a1c6facf610ca68714200b97"
+  },
+  {
+    "kind": "texture",
+    "family": "fabric",
+    "source": "Deadlock/Content/Materials/Fabric/TEX_Canvas01_D.uasset",
+    "target": "Deadlock/Content/Materials/Fabric/Ef9ec197ad____.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "fe0aa17ccd3655e37dee650eb96c07c20eaa060907275ca4e4ae527d961303d0",
+    "new_sha256": "f562f6663e3ff1eb6b809bdf0ad3605bb12253ff8bd61803ddbb79ba14cfbb91"
+  },
+  {
+    "kind": "texture",
+    "family": "mineral",
+    "source": "Deadlock/Content/Materials/Concrete/TEX_Concrete_01_N.uasset",
+    "target": "Deadlock/Content/Materials/Concrete/Efbf210057_______.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "18c8ec69248e85996fcddf13909739836116c0bbc1f40a9325694cf624e2da30",
+    "new_sha256": "e160adb2b59857ad4d8c26509dfcd1443e5ce1a9cee3c3c0715cfd859abf4777"
+  },
+  {
+    "kind": "texture",
+    "family": "mineral",
+    "source": "Deadlock/Content/Materials/Brick/TEX_CheckerboardTiles_D_01.uasset",
+    "target": "Deadlock/Content/Materials/Brick/E3e4bcdaac________________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "8bb10bafe5b60839a0f3558e12eb2ea6eea649d327b962cb22fb55effc73dd70",
+    "new_sha256": "088a29604ceff1e175cd233727821baf7b6fd1946e168a85c53fb3014def2994"
+  },
+  {
+    "kind": "texture",
+    "family": "mineral",
+    "source": "Deadlock/Content/Materials/Brick/TEX_CheckerboardTiles_D_02.uasset",
+    "target": "Deadlock/Content/Materials/Brick/E7b840ead8________________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "be93c96bb50d8c712d57a551ffd138b9d493e5351d99108b0e25969731d1b2aa",
+    "new_sha256": "9c4335e0795f74e788806e68c2d765abc7128a1099cf9f1cc98eccb3264ffd16"
+  },
+  {
+    "kind": "texture",
+    "family": "mineral",
+    "source": "Deadlock/Content/Materials/Brick/TEX_CheckerboardTiles_N_01.uasset",
+    "target": "Deadlock/Content/Materials/Brick/Ef32e65587________________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "3af9d24d689563c63af9c674b1cf162df83fc59ef4975db60e1c0baa032fe518",
+    "new_sha256": "3dd87564d06bba7fa5d090f4c90e0de95c6e2c84c4e4ba034e63cdc50812f5f9"
+  },
+  {
+    "kind": "texture",
+    "family": "mineral",
+    "source": "Deadlock/Content/Materials/Brick/TEX_HospitalBrick_D_01.uasset",
+    "target": "Deadlock/Content/Materials/Brick/E5170e2137____________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 2048,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "b7806b64b4a48e452727683621e237b3a825ec9e88b373a61dbedfe10885dc9d",
+    "new_sha256": "0fba6f084a51bcb49b7adea350b5404ddd89e1fa5ff7fa94539d6ace9e1e28c8"
+  },
+  {
+    "kind": "texture",
+    "family": "mineral",
+    "source": "Deadlock/Content/Materials/Brick/TEX_HospitalBrick_N_01.uasset",
+    "target": "Deadlock/Content/Materials/Brick/E829d7522c____________.uasset",
+    "mips": [
+      {
+        "level": 0,
+        "width": 2048,
+        "height": 2048,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 1,
+        "width": 1024,
+        "height": 1024,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 2,
+        "width": 512,
+        "height": 512,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 3,
+        "width": 256,
+        "height": 256,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 4,
+        "width": 128,
+        "height": 128,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 5,
+        "width": 64,
+        "height": 64,
+        "unchanged": false,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 6,
+        "width": 32,
+        "height": 32,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 7,
+        "width": 16,
+        "height": 16,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 8,
+        "width": 8,
+        "height": 8,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 9,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 10,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      },
+      {
+        "level": 11,
+        "width": 4,
+        "height": 4,
+        "unchanged": true,
+        "alpha_unchanged": true
+      }
+    ],
+    "original_sha256": "55aa5736e6d2ba357c61270d47b693f8c1448ddc815f89b3c3c3d88c1d2e6249",
+    "new_sha256": "21a99208bca2c142a50f91b8cca06a1402842eedea2a8a01896767995e82be89"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Environment/Furniture/MAT_FoldingChair_01.uasset",
+    "target": "Deadlock/Content/Environment/Furniture/MAT_FoldingChair_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_MetalBase_D",
+      "/Game/Materials/Metal/TEX_MetalBase_N",
+      "TEX_MetalBase_D",
+      "TEX_MetalBase_N"
+    ],
+    "original_sha256": "02ab4e8a9fc3feb858d933d8571bca11d7964b0f95a64bc61b2404bacb090ae5",
+    "new_sha256": "9023bc67b0150d95b2c19cb05114edfba1882a712850d60f8560971619462a6f"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Environment/Rooms/TheMainRoom/MAT_CheckerboardTiles_02.uasset",
+    "target": "Deadlock/Content/Environment/Rooms/TheMainRoom/MAT_CheckerboardTiles_02.uasset",
+    "rebound_names": [
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_D_02",
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_N_01",
+      "TEX_CheckerboardTiles_D_02",
+      "TEX_CheckerboardTiles_N_01"
+    ],
+    "original_sha256": "0411d907a828809d1b0782505a465f22b221c1956d320828d907c4c67e220543",
+    "new_sha256": "b49825013bdac05f44bec3c87c2126c8bf4ddd764e6c7155a2bc0edd340a0bc0"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Environment/Rooms/TheQuestionnaireRoom/Materials/MAT_QuestianareWalls_01.uasset",
+    "target": "Deadlock/Content/Environment/Rooms/TheQuestionnaireRoom/Materials/MAT_QuestianareWalls_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_D_02",
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_N_01",
+      "TEX_CheckerboardTiles_D_02",
+      "TEX_CheckerboardTiles_N_01"
+    ],
+    "original_sha256": "7f06c53e34723b9e478ff594d1a91ab8cec6ec7de73a3cb4833c1dbd39364b57",
+    "new_sha256": "c62c1b9e8611e366fcfc62e1f8bd90464dfa1399c60c798065a6909c30043906"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Environment/Rooms/TheQuestionnaireRoom/Materials/MAT_QuestionareFloor_01.uasset",
+    "target": "Deadlock/Content/Environment/Rooms/TheQuestionnaireRoom/Materials/MAT_QuestionareFloor_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "/Game/Materials/Plastic/TEX_PlasticBase_N",
+      "/Game/Materials/Plastic/TEX_PlasticBase_R",
+      "TEX_PlasticBase_D",
+      "TEX_PlasticBase_N",
+      "TEX_PlasticBase_R"
+    ],
+    "original_sha256": "e7a35e71d52afea0644572708a5fda4da3a15e95a2df914a9751f3e365142b55",
+    "new_sha256": "e88c1c5de71d3b440bbad4d3c0c14e6eb3b893209d21ee888ad2c6dafb6addfe"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_01.uasset",
+    "target": "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_D_01",
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_N_01",
+      "TEX_CheckerboardTiles_D_01",
+      "TEX_CheckerboardTiles_N_01"
+    ],
+    "original_sha256": "fbc1e52d66d63554ea073789b98716aabd8d8048d970280d58eb52bde81eb85e",
+    "new_sha256": "28124847b2674c9f7bc4800705404da701e2fd83b0014c473edee96d4f21d8c6"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_02.uasset",
+    "target": "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_02.uasset",
+    "rebound_names": [
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_D_02",
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_N_01",
+      "TEX_CheckerboardTiles_D_02",
+      "TEX_CheckerboardTiles_N_01"
+    ],
+    "original_sha256": "e1c68be55b97a43a23ee47bcf928f9590ce6d54cfce65ce83005c61cec2680c4",
+    "new_sha256": "d15a759c797f2e9140615ad0d5be5ac41db3db3bcab55f05ee24e22b972bbedd"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_03.uasset",
+    "target": "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_03.uasset",
+    "rebound_names": [
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_D_02",
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_N_01",
+      "TEX_CheckerboardTiles_D_02",
+      "TEX_CheckerboardTiles_N_01"
+    ],
+    "original_sha256": "1ea84c8a40f146a5c1696c68da702d7a89b9e222b11691384c3c8b1381276cfd",
+    "new_sha256": "3ca4eab5fc531aeec3390bdff7858bf1dbcd5ea8e4d5d658ac6858a9ed99c15b"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_05.uasset",
+    "target": "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_05.uasset",
+    "rebound_names": [
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_D_02",
+      "/Game/Materials/Brick/TEX_CheckerboardTiles_N_01",
+      "TEX_CheckerboardTiles_D_02",
+      "TEX_CheckerboardTiles_N_01"
+    ],
+    "original_sha256": "a2ebc6206e64386dc7ae8cf7f3c302b46da218ca868d43ef5fb6936a0308102b",
+    "new_sha256": "43f2a464ed7842677ec3b1187f9e6e737fbc294cc5192a2c324d8c215d769931"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Brick/MAT_HospitalBrick_01.uasset",
+    "target": "Deadlock/Content/Materials/Brick/MAT_HospitalBrick_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Brick/TEX_HospitalBrick_D_01",
+      "/Game/Materials/Brick/TEX_HospitalBrick_N_01",
+      "TEX_HospitalBrick_D_01",
+      "TEX_HospitalBrick_N_01"
+    ],
+    "original_sha256": "e7db450a0ac01fdd6e778198b4cc5fe11e771a0a3020a370b65f89ca961363be",
+    "new_sha256": "0632639b462c02728e9932b409feff4f780381d1de2eaf81100cae70aa83a18f"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Brick/MAT_HospitalBrick_03.uasset",
+    "target": "Deadlock/Content/Materials/Brick/MAT_HospitalBrick_03.uasset",
+    "rebound_names": [
+      "/Game/Materials/Brick/TEX_HospitalBrick_D_01",
+      "/Game/Materials/Brick/TEX_HospitalBrick_N_01",
+      "TEX_HospitalBrick_D_01",
+      "TEX_HospitalBrick_N_01"
+    ],
+    "original_sha256": "71afc68faecbb23668a01f92719c95d25b3d8c218762a116996eb94016a82665",
+    "new_sha256": "647dc43a44d8d2b7a2a10a72e26d19e034de24d4e1e11b27907ec740f1f100ac"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Concrete/MAT_Concrete.uasset",
+    "target": "Deadlock/Content/Materials/Concrete/MAT_Concrete.uasset",
+    "rebound_names": [
+      "/Game/Materials/Concrete/TEX_Concrete_01_N",
+      "TEX_Concrete_01_N"
+    ],
+    "original_sha256": "06c41077515d8f6a0fd6bba6e558b34d0b0438699d25440cb17583f5f1a5489d",
+    "new_sha256": "eac26a619847a43ae745368bbf5235590b965cef9bde3c718d7dc3aa2b6f3d6e"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Concrete/MAT_Concrete_01.uasset",
+    "target": "Deadlock/Content/Materials/Concrete/MAT_Concrete_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Concrete/TEX_Concrete_01_N",
+      "TEX_Concrete_01_N"
+    ],
+    "original_sha256": "e912741c5badc2471bbbe38d35a69057979979221d4a1cd206ac440d6a2a7353",
+    "new_sha256": "e34b15424c9c1771d80450789cb3dc7f6e3e25e1160404eb052eb6b8f5c0f978"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Fabric/MAT_BasicFabric_01.uasset",
+    "target": "Deadlock/Content/Materials/Fabric/MAT_BasicFabric_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Fabric/TEX_BasicFabric_D",
+      "TEX_BasicFabric_D"
+    ],
+    "original_sha256": "86a45b478fc377fb2b74eb0b15e251283b131670ab7b24b2b324fcc5526e62ea",
+    "new_sha256": "aa305c4800c768235f518af04246eaba7440e27af6e3c983e4653b19b579ea2d"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Fabric/MAT_Fabric_Coated.uasset",
+    "target": "Deadlock/Content/Materials/Fabric/MAT_Fabric_Coated.uasset",
+    "rebound_names": [
+      "/Game/Materials/Fabric/TEX_BasicFabric_N",
+      "/Game/Materials/Fabric/TEX_Canvas01_D",
+      "TEX_BasicFabric_N",
+      "TEX_Canvas01_D"
+    ],
+    "original_sha256": "edf05c2cd06913991d42eb229ca2614f0eddba84c9a555db996a3cc99c265994",
+    "new_sha256": "4c6073aab7bec3c753d82d12bf91b52e03267a4e76d650bc354d19eca08d7a85"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Metal/MAT_Device_Steel.uasset",
+    "target": "Deadlock/Content/Materials/Metal/MAT_Device_Steel.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_Steel_R",
+      "TEX_Steel_R"
+    ],
+    "original_sha256": "eeb5043ae38df12ab910f5b712d80555092f76818c2e3e0892191ed9cf7f78a5",
+    "new_sha256": "fe87adbb3972d6c444fea7761f2e019686a0adf8cd67c9f34b3acc5d68493534"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Metal/MAT_MetalCopper_01_INST.uasset",
+    "target": "Deadlock/Content/Materials/Metal/MAT_MetalCopper_01_INST.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_MetalFloor_D",
+      "/Game/Materials/Metal/TEX_MetalFloor_N",
+      "TEX_MetalFloor_D",
+      "TEX_MetalFloor_N"
+    ],
+    "original_sha256": "b4548c53bab7b2903151cd74aa1c730a5cd142423757cb6bc24867fd2be64cc4",
+    "new_sha256": "95c9f92100ba71c6f4c7b3b79a2dc887ecb7968273e7ae8a6928e4888ccbcaab"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Metal/MAT_MetalPanels_01_INST.uasset",
+    "target": "Deadlock/Content/Materials/Metal/MAT_MetalPanels_01_INST.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_MetalFloor_D",
+      "/Game/Materials/Metal/TEX_MetalFloor_N",
+      "TEX_MetalFloor_D",
+      "TEX_MetalFloor_N"
+    ],
+    "original_sha256": "e07d5286e007c34287dcd7067d0fd7100f8ff9e2bbb8b2df2323e1263b07ea5f",
+    "new_sha256": "8c5263bc04f1b0bced863acca3b95110dffcd5b7c0f9961241ab2d341bc969a4"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Metal/MAT_Metal_01.uasset",
+    "target": "Deadlock/Content/Materials/Metal/MAT_Metal_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_MetalBase_D",
+      "/Game/Materials/Metal/TEX_MetalBase_N",
+      "TEX_MetalBase_D",
+      "TEX_MetalBase_N"
+    ],
+    "original_sha256": "55ebe3502acab8af95756803fde202b6e9f86b3d65a8b2d4746377c8209c0787",
+    "new_sha256": "8da7df40acea750ba48e87c295c22fbd16be74b999d293ea8d329434a0ab1cec"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Metal/MAT_Metal_Brushed_Steel.uasset",
+    "target": "Deadlock/Content/Materials/Metal/MAT_Metal_Brushed_Steel.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_Steel_R",
+      "TEX_Steel_R"
+    ],
+    "original_sha256": "3df5f42a345cac0d575229545c460d2d439261bda82776d1752a788bd05d87bf",
+    "new_sha256": "734621b1ff4360a726e3e3cebf3d8c0ae4eb51afdadc1c493410d8719427803f"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Metal/MAT_Metal_Brushed_Steel2.uasset",
+    "target": "Deadlock/Content/Materials/Metal/MAT_Metal_Brushed_Steel2.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_Steel_R",
+      "TEX_Steel_R"
+    ],
+    "original_sha256": "5493031451b290d90b6cde802956e211b9c05ae52d164959e36d2b4a8feacb8b",
+    "new_sha256": "c852eed7d2dfe16a1dcbccdb37a5130fdfa6620e4def1c62aba656567a8752e1"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Metal/MAT_StylisedMetal_01.uasset",
+    "target": "Deadlock/Content/Materials/Metal/MAT_StylisedMetal_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_MetalBase_N",
+      "/Game/Materials/Metal/TEX_StylisedMetal_D",
+      "TEX_MetalBase_N",
+      "TEX_StylisedMetal_D"
+    ],
+    "original_sha256": "5e35f61ccb04fb7afe87ea5369d0beb8f734cd7ce5a980eec0ad1c00e7e4aa93",
+    "new_sha256": "568c690fbe86274383c64499da6bc057b76efd00540a7d65232aeeffe177a87c"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Metal/Mat_Device_Painted.uasset",
+    "target": "Deadlock/Content/Materials/Metal/Mat_Device_Painted.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_Painted_Metal_N",
+      "TEX_Painted_Metal_N"
+    ],
+    "original_sha256": "0993bb1de6b516f5251cbb0fb06c06a99e4a929190123a580c8306477a869d93",
+    "new_sha256": "e83f83c23c38055682faa99d356787c99bec4f8fb73aaac8de80dbec6d7d0182"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Metal/Mat_Metal_Painted.uasset",
+    "target": "Deadlock/Content/Materials/Metal/Mat_Metal_Painted.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_Painted_Metal_N",
+      "TEX_Painted_Metal_N"
+    ],
+    "original_sha256": "c568e579f4b40b33121039b6123c3d0d407e44f0ce965c00f7e0337f26e80344",
+    "new_sha256": "9f56277f56f8a8b6b5740ca9715048b780a73eecb99be952591083cbc0ceb837"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Plastic/MAT_Chassi_Plastic_01.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/MAT_Chassi_Plastic_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_DirtyScratches_R",
+      "/Game/Materials/Plastic/TEX_GrainyPlastic_N",
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "TEX_DirtyScratches_R",
+      "TEX_GrainyPlastic_N",
+      "TEX_PlasticBase_D"
+    ],
+    "original_sha256": "4f6eb2c879f27cd46d3461537abc10a45e9747f69ddb5d9b1b84a58b313e1403",
+    "new_sha256": "175e7ddf1e5df5acc5c48026e598396c9daa5f1807c91657de56f5bfb120a871"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Plastic/MAT_DevicePlastic_01.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/MAT_DevicePlastic_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "/Game/Materials/Plastic/TEX_PlasticBase_N",
+      "/Game/Materials/Plastic/TEX_PlasticBase_R",
+      "TEX_PlasticBase_D",
+      "TEX_PlasticBase_N",
+      "TEX_PlasticBase_R"
+    ],
+    "original_sha256": "63b2540064be68cb9b0492f2e9bc358baf7d4e1fed1e86ae7dfdf537082f7681",
+    "new_sha256": "44532946d47cb7f82614b990ad66e5658eaf094581b4d59a6cee66db4304caa1"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Plastic/MAT_Device_Chassis.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/MAT_Device_Chassis.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_DirtyScratches_R",
+      "/Game/Materials/Plastic/TEX_GrainyPlastic_N",
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "TEX_DirtyScratches_R",
+      "TEX_GrainyPlastic_N",
+      "TEX_PlasticBase_D"
+    ],
+    "original_sha256": "d31e616ba45b667e377ed61847a4c4417651a3b8a13561f77348dc38160e911a",
+    "new_sha256": "7eb93d03911ec352982bfa1dec3d8a539cff2bd01481727f06a593c365ac4a7e"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Plastic/MAT_Device_Plastic.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/MAT_Device_Plastic.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "/Game/Materials/Plastic/TEX_PlasticBase_N",
+      "/Game/Materials/Plastic/TEX_PlasticBase_R",
+      "TEX_PlasticBase_D",
+      "TEX_PlasticBase_N",
+      "TEX_PlasticBase_R"
+    ],
+    "original_sha256": "a6feb280fa68b79e406f0b1eb4676aa816bcc474a966d610bbee3c22cfa88517",
+    "new_sha256": "4999fe490ebafd9b3f294d07db37bfe1df9f3b85de5251cb7a9339541a4e620c"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Plastic/MAT_PlasticWhite_02_INST.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/MAT_PlasticWhite_02_INST.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "TEX_PlasticBase_D"
+    ],
+    "original_sha256": "63ca54df81ff5917e3f369e886152b2bbca38f9b1ece20b2dc9b7650f3ef0aaa",
+    "new_sha256": "467a22a69e666c8ed131c25af7bb7ac50a0c02b54ba1d98cd174465144586d02"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Plastic/MAT_Plastic_01.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/MAT_Plastic_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "/Game/Materials/Plastic/TEX_PlasticBase_N",
+      "/Game/Materials/Plastic/TEX_PlasticBase_R",
+      "TEX_PlasticBase_D",
+      "TEX_PlasticBase_N",
+      "TEX_PlasticBase_R"
+    ],
+    "original_sha256": "49785f20b01754fe28f9185c633e3622fc2c66bf935e379512fbadc19c5954af",
+    "new_sha256": "a1d85fad20bc6048781bcdc11daada1da55373c83f362b963914518a4b76d0a9"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Plastic/MAT_Plastic_03_INST.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/MAT_Plastic_03_INST.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "TEX_PlasticBase_D"
+    ],
+    "original_sha256": "1c213c220e0f2f1033e7b271b00b14ecacf04ded2a75c52f55d176ed8c5279ff",
+    "new_sha256": "a3f7a4e3d6d7e24972d96e79b65ce7d37d4f91e0772da030d80083f16df287aa"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Plastic/MAT_Plastic_Old_Dirty_01_INST.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/MAT_Plastic_Old_Dirty_01_INST.uasset",
+    "rebound_names": [
+      "/Game/Materials/Concrete/TEX_Concrete_01_N",
+      "TEX_Concrete_01_N"
+    ],
+    "original_sha256": "05d992df621b4fab905145d10154b66e718b0fc3730f01337daf68514ee17d51",
+    "new_sha256": "a994c9cde93c6cf9b9a7020e9b874424cb3bb2b958b240d35165321c9f273bc4"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Plastic/MAT_PuzzleBoxBase_Plastic.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/MAT_PuzzleBoxBase_Plastic.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "/Game/Materials/Plastic/TEX_PlasticBase_N",
+      "/Game/Materials/Plastic/TEX_PlasticBase_R",
+      "TEX_PlasticBase_D",
+      "TEX_PlasticBase_N",
+      "TEX_PlasticBase_R"
+    ],
+    "original_sha256": "ed2907a5453550e69fcb0afc1eb61e03dbcf68a937282f4907490807ed50fb99",
+    "new_sha256": "40b74e565afc3c95f0b0a5714e8bc1cbc861b9657a0f8a28110618a79b02e9b7"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Plastic/MAT_PuzzleBoxBase_Plastic02.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/MAT_PuzzleBoxBase_Plastic02.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "/Game/Materials/Plastic/TEX_PlasticBase_N",
+      "/Game/Materials/Plastic/TEX_PlasticBase_R",
+      "TEX_PlasticBase_D",
+      "TEX_PlasticBase_N",
+      "TEX_PlasticBase_R"
+    ],
+    "original_sha256": "c3f33a774033a5f300da3d5083aa40dc4588eb37cbe42a1b3e6885fecec460ac",
+    "new_sha256": "32520db628480d956768e046834060f2d7a8aabbf17db44ed57c58fcc44783e9"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Plastic/MAT_PuzzleBoxBase_Plastic03.uasset",
+    "target": "Deadlock/Content/Materials/Plastic/MAT_PuzzleBoxBase_Plastic03.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "/Game/Materials/Plastic/TEX_PlasticBase_N",
+      "/Game/Materials/Plastic/TEX_PlasticBase_R",
+      "TEX_PlasticBase_D",
+      "TEX_PlasticBase_N",
+      "TEX_PlasticBase_R"
+    ],
+    "original_sha256": "be9fad784209150d07cc73a29715a2e888440b8ac27e5feeb2d3bb8160c5b125",
+    "new_sha256": "64091ac862ad7f18911a1fffbda7fca4b3dbf8fc601df644f30a8286a2b4f4a6"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_01.uasset",
+    "target": "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_PlasticBase_D",
+      "/Game/Materials/Plastic/TEX_PlasticBase_R",
+      "TEX_PlasticBase_D",
+      "TEX_PlasticBase_R"
+    ],
+    "original_sha256": "e7fe1b1b55fcb571c566d378569dbabafad3f9c60739ccc17b1728ffd750fa16",
+    "new_sha256": "e2e4a29251c0c8c8bddf4666a02b7dc213ea44b8f7ad867868f9e23834691f68"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Wood/MAT_Pinboard_01.uasset",
+    "target": "Deadlock/Content/Materials/Wood/MAT_Pinboard_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Wood/TEX_Pinboard_01",
+      "TEX_Pinboard_01"
+    ],
+    "original_sha256": "a6c41240a71c852a2457df20e303733151830834f7b10efb9b2c2ea50ba33442",
+    "new_sha256": "156fdc93311acc409373f5d483e5da85586eaeef84aba38eb3a463e3e439ac04"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Wood/MAT_PlanksWorn_01.uasset",
+    "target": "Deadlock/Content/Materials/Wood/MAT_PlanksWorn_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Wood/TEX_PlanksWorn_01_D",
+      "/Game/Materials/Wood/TEX_PlanksWorn_01_N",
+      "/Game/Materials/Wood/TEX_PlanksWorn_01_R",
+      "TEX_PlanksWorn_01_D",
+      "TEX_PlanksWorn_01_N",
+      "TEX_PlanksWorn_01_R"
+    ],
+    "original_sha256": "6c336416e9b64045f8335d51bf437bb90ebae402a1773f92d85dff830bd31232",
+    "new_sha256": "b18d8afe8d346f133216c15805a974e14ce3ff22fcdedfb1aa2fdd817770f4c0"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Wood/MAT_Plywood_01.uasset",
+    "target": "Deadlock/Content/Materials/Wood/MAT_Plywood_01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Wood/TEX_Plywood_01_D",
+      "TEX_Plywood_01_D"
+    ],
+    "original_sha256": "ffd65682746b893b27fbcf52e6cb09cbf2e556c786a3767a711faf2ece61177d",
+    "new_sha256": "9be13a75628152461ac20399347cebab23da1fa37c9b7ca5d39ec562f7ced1a9"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Wood/MAT_Plywood_02.uasset",
+    "target": "Deadlock/Content/Materials/Wood/MAT_Plywood_02.uasset",
+    "rebound_names": [
+      "/Game/Materials/Wood/TEX_Plywood_01_D",
+      "TEX_Plywood_01_D"
+    ],
+    "original_sha256": "d27599e10b42574eaae9b710394c072832ecc72ca8afc026d41b82ca68363453",
+    "new_sha256": "bb80968d079fba6bb73677789af80d5f4bb14e5ee7a419d68504c3fbde741324"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Wood/MAT_Plywood_03.uasset",
+    "target": "Deadlock/Content/Materials/Wood/MAT_Plywood_03.uasset",
+    "rebound_names": [
+      "/Game/Materials/Wood/TEX_Plywood_01_D",
+      "TEX_Plywood_01_D"
+    ],
+    "original_sha256": "f41d471312cdbddda8aeca152e57ab37e41a2901b110097d9cd738b9993d809e",
+    "new_sha256": "9e17d998cf1db9a8cb297cce2d00b2b9a002d03a48dd63d5d9a4e7ed1d5ed8d5"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Wood/MAT_Plywood_04.uasset",
+    "target": "Deadlock/Content/Materials/Wood/MAT_Plywood_04.uasset",
+    "rebound_names": [
+      "/Game/Materials/Wood/TEX_Plywood_01_D",
+      "TEX_Plywood_01_D"
+    ],
+    "original_sha256": "285cc682eb4b8c8edaca3480672aa00e37f51ea50a851da393f24f25e92e1cb4",
+    "new_sha256": "0afef74687488537d4fef15f35e6692b73ce9d1896c5898b53fb30867502fd5f"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Materials/Wood/MAT_Wood_Painted.uasset",
+    "target": "Deadlock/Content/Materials/Wood/MAT_Wood_Painted.uasset",
+    "rebound_names": [
+      "/Game/Materials/Wood/TEX_Painted_Wood_N",
+      "TEX_Painted_Wood_N"
+    ],
+    "original_sha256": "9b11b364fa3cf32e4fe5742b3ccfdd76d6954740aebec2da85010b24f11db373",
+    "new_sha256": "3794a372ef44fcaa76a6eda66fd08fc88571a184ecabe0b8297aa2efb484290d"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Puzzles/Gyrophone/MAT_Device_Steel.uasset",
+    "target": "Deadlock/Content/Puzzles/Gyrophone/MAT_Device_Steel.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_Steel_R",
+      "TEX_Steel_R"
+    ],
+    "original_sha256": "c906de2b1acd4e4565d3aa0e02a2afc0ff59c08a7657d6bb440574a12e28fcf6",
+    "new_sha256": "0b3128fa59b0a03f85c6a763d5874ae329201e77db52d1151866796b4f7f561e"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Puzzles/Labyrinth/MAT_Labyrinth_Plywood01.uasset",
+    "target": "Deadlock/Content/Puzzles/Labyrinth/MAT_Labyrinth_Plywood01.uasset",
+    "rebound_names": [
+      "/Game/Materials/Wood/TEX_Plywood_01_D",
+      "TEX_Plywood_01_D"
+    ],
+    "original_sha256": "7dd7720c54f5929dd28c133f7a49cbc02fc7896da0e4be2d33ab59bd2302f495",
+    "new_sha256": "7e8158687320a11f60e873606fecd1eaf508950cb3c85bf6d39983b6ae808153"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Puzzles/Labyrinth/MAT_Labyrinth_Plywood02.uasset",
+    "target": "Deadlock/Content/Puzzles/Labyrinth/MAT_Labyrinth_Plywood02.uasset",
+    "rebound_names": [
+      "/Game/Materials/Wood/TEX_Plywood_01_D",
+      "TEX_Plywood_01_D"
+    ],
+    "original_sha256": "5c86910f61cf50636efe4b5fb3e878ab49c11c1b1d16351dbd58a211a355c795",
+    "new_sha256": "18a62555728d70be0c916dba4617e147a52f181e9e282e52aa6f3458a194d76e"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Puzzles/Questionnaire/MaterialsAndTextures/MAT_Device_Steel02.uasset",
+    "target": "Deadlock/Content/Puzzles/Questionnaire/MaterialsAndTextures/MAT_Device_Steel02.uasset",
+    "rebound_names": [
+      "/Game/Materials/Metal/TEX_Steel_R",
+      "TEX_Steel_R"
+    ],
+    "original_sha256": "29ffdbcf205e80a3e6a47b1f9d3c9d0a26213ac23dac525b0452189afdad8013",
+    "new_sha256": "9bff6a78eca690ad6be56da411d77c39471488a607cd2035a877181c6dd47441"
+  },
+  {
+    "kind": "material",
+    "source": "Deadlock/Content/Puzzles/RadioLocationv2/MAT_RadioL_Chassi_NoAO.uasset",
+    "target": "Deadlock/Content/Puzzles/RadioLocationv2/MAT_RadioL_Chassi_NoAO.uasset",
+    "rebound_names": [
+      "/Game/Materials/Plastic/TEX_PlasticBase_N",
+      "/Game/Materials/Plastic/TEX_PlasticBase_R",
+      "TEX_PlasticBase_N",
+      "TEX_PlasticBase_R"
+    ],
+    "original_sha256": "7d6c6ba73f75bb551e8163d306d40f19ab76629ed9a603cd320d0a580ec6f58a",
+    "new_sha256": "07a81df2e1e0d7d6dc54fb9c148e7541ecbb52dda73abbde6b9d1f904eec2c4f"
+  },
+  {
+    "kind": "coverage",
+    "selected_materials": 201,
+    "rebound_materials": 47,
+    "inherited_materials": [
+      "Deadlock/Content/Characters/Player/ChairUnit/MAT_ChairUnit_Plastic.uasset",
+      "Deadlock/Content/Characters/Player/ChairUnit/MAT_ChairUnit_Rubber.uasset",
+      "Deadlock/Content/Characters/Player/ChairUnit/MAT_ChairUnit_Seat.uasset",
+      "Deadlock/Content/Characters/Player/ChairUnit/MAT_ChairUnit_Shell.uasset",
+      "Deadlock/Content/Characters/Player/ChairUnit/MAT_ChairUnit_Steel.uasset",
+      "Deadlock/Content/Characters/Player/HeadHolder/MAT_ArmUnit_Rubber.uasset",
+      "Deadlock/Content/Characters/Player/HeadHolder/MAT_ArmUnit_Shell.uasset",
+      "Deadlock/Content/Characters/Player/HeadHolder/MAT_ArmUnit_Steel.uasset",
+      "Deadlock/Content/Characters/Player/HeadHolder/MAT_ArmUnit_Steel_2.uasset",
+      "Deadlock/Content/Characters/TestScanner/MAT_EDTH_Case.uasset",
+      "Deadlock/Content/Characters/TestScanner/MAT_EDTH_Case_STATIC.uasset",
+      "Deadlock/Content/Characters/TestScanner/MAT_EDTH_Plastic.uasset",
+      "Deadlock/Content/Characters/TestScanner/MAT_EDTH_Rubber.uasset",
+      "Deadlock/Content/Characters/TestScanner/MAT_EDTH_Steel.uasset",
+      "Deadlock/Content/Characters/TestScanner/MAT_EDTH_Steel2.uasset",
+      "Deadlock/Content/Environment/Furniture/MAT_FoldingChair_01.uasset",
+      "Deadlock/Content/Environment/Gadgets/Computer02/MAT_Computer02.uasset",
+      "Deadlock/Content/Environment/Lights/TableLamp02/MAT_PlasticShinyDark_01_INST.uasset",
+      "Deadlock/Content/Environment/MISC/PalletTruck/MAT_PalletTruck_01.uasset",
+      "Deadlock/Content/Environment/Rooms/TheMainRoom/MAT_CheckerboardTiles_02.uasset",
+      "Deadlock/Content/Environment/Rooms/TheQuestionnaireRoom/Materials/MAT_QuestianareWalls_01.uasset",
+      "Deadlock/Content/Environment/Rooms/TheQuestionnaireRoom/Materials/MAT_QuestionareFloor_01.uasset",
+      "Deadlock/Content/Environment/Rooms/TheSecretEnding/Materials/MAT_TheSecretEnding_Skirting.uasset",
+      "Deadlock/Content/Environment/Rooms/TheSecretEnding/SecretEndingHeadMount/MAT_HeadUnit_Casing.uasset",
+      "Deadlock/Content/Environment/Rooms/TheSecretEnding/SecretEndingHeadMount/MAT_HeadUnit_Steel.uasset",
+      "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_01.uasset",
+      "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_02.uasset",
+      "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_02_Inst_01.uasset",
+      "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_03.uasset",
+      "Deadlock/Content/Materials/Brick/MAT_CheckerboardTiles_05.uasset",
+      "Deadlock/Content/Materials/Brick/MAT_HospitalBrick_01.uasset",
+      "Deadlock/Content/Materials/Brick/MAT_HospitalBrick_03.uasset",
+      "Deadlock/Content/Materials/Brick/MAT_HospitalBrick_White_01_Inst.uasset",
+      "Deadlock/Content/Materials/Concrete/MAT_Concrete.uasset",
+      "Deadlock/Content/Materials/Concrete/MAT_Concrete_01.uasset",
+      "Deadlock/Content/Materials/Concrete/MAT_Concrete_01_Inst02.uasset",
+      "Deadlock/Content/Materials/Concrete/MAT_Concrete_Bare.uasset",
+      "Deadlock/Content/Materials/Concrete/MAT_Concrete_Color_01_Inst.uasset",
+      "Deadlock/Content/Materials/Concrete/MAT_Concrete_White.uasset",
+      "Deadlock/Content/Materials/Fabric/MAT_BasicFabric_01.uasset",
+      "Deadlock/Content/Materials/Fabric/MAT_BlueFabric_01_Inst.uasset",
+      "Deadlock/Content/Materials/Fabric/MAT_CeilingFabric_01_Inst.uasset",
+      "Deadlock/Content/Materials/Fabric/MAT_Fabric_Coated.uasset",
+      "Deadlock/Content/Materials/Fabric/MAT_GreenFabric_01_Inst.uasset",
+      "Deadlock/Content/Materials/Fabric/MAT_OrangeFabric_01_Inst.uasset",
+      "Deadlock/Content/Materials/Fabric/MAT_RedFabric_01_Inst.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_Device_Steel.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_MetalCopper_01_INST.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_MetalPanels_01_INST.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_Metal_01.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_Metal_Brushed_Steel.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_Metal_Brushed_Steel2.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_Metal_Brushed_Steel_Inst.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_Metal_Colored_01_Inst.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_Metal_Colored_02_Inst.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_Metal_Colored_03_Inst.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_Metal_Colored_04_Inst.uasset",
+      "Deadlock/Content/Materials/Metal/MAT_StylisedMetal_01.uasset",
+      "Deadlock/Content/Materials/Metal/Mat_Device_Painted.uasset",
+      "Deadlock/Content/Materials/Metal/Mat_Metal_Painted.uasset",
+      "Deadlock/Content/Materials/Metal/Mat_Metal_Painted_02.uasset",
+      "Deadlock/Content/Materials/Metal/Mat_Metal_Painted_White.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Chassi_Plastic_01.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Chassi_Plastic_01_Inst02.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_DevicePlastic_01.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Device_Chassis.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Device_Plastic.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PlasticShinyDark_01_INST.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PlasticShinyGrey_01_INST.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PlasticWhite_02_INST.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PlasticWhite_02_INST02.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PlasticWhite_02_INST03.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PlasticWhite_02_INST04.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PlasticWhite_02_INST06.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PlasticWhite_02_INST07.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PlasticWhite_02_INST2.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_01.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_03_INST.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Green_01_Inst.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Old_Dirty_01_INST.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Old_Dirty_02_INST.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Orange_01_Inst.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Orange_01_Inst02.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Orange_01_Inst03.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Orange_01_Inst06.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Orange_01_Inst2.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_RedRed_01_Inst.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Red_01_Inst.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Yellow_01_Inst.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Yellow_01_Inst03.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_Plastic_Yellow_01_Inst2.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PuzzleBoxBase_Plastic.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PuzzleBoxBase_Plastic02.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_PuzzleBoxBase_Plastic03.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_ShinyRubberBlack_01_INST.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_ShinyRubberGray_02_INST.uasset",
+      "Deadlock/Content/Materials/Plastic/MAT_ShinyRubberPattern_01_INST.uasset",
+      "Deadlock/Content/Materials/Plastic/Mat_Plastic_Seat.uasset",
+      "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_01.uasset",
+      "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_01_Inst2.uasset",
+      "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_01_Inst3.uasset",
+      "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_01_Inst4.uasset",
+      "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_02_Inst.uasset",
+      "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_02_Inst02.uasset",
+      "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_03_Inst.uasset",
+      "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_06_Inst.uasset",
+      "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_07_Inst.uasset",
+      "Deadlock/Content/Materials/Wallpaper/MAT_WallPaper_Blue_01_Inst.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_BasicWood_01.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_BasicWood_01_Inst_01.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_Pinboard_01.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_PlanksWornColored_01_Inst.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_PlanksWorn_01.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_Plywood_01.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_Plywood_02.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_Plywood_03.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_Plywood_04.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_Wood_Painted.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_Wood_Painted_DarkBlue.uasset",
+      "Deadlock/Content/Materials/Wood/MAT_Wood_Painted_Inst2.uasset",
+      "Deadlock/Content/Puzzles/AssortedAssets/MAT_WIFIAntenna_Plastic_01_Inst.uasset",
+      "Deadlock/Content/Puzzles/CameraCar/Materials/MAT_CameraCar_Chassis.uasset",
+      "Deadlock/Content/Puzzles/CameraCar/Materials/MAT_CameraCar_Plastic.uasset",
+      "Deadlock/Content/Puzzles/CameraCar/Materials/MAT_CameraCar_Steel.uasset",
+      "Deadlock/Content/Puzzles/DigitalFlipper/MAT_DigitalFlipper_Base.uasset",
+      "Deadlock/Content/Puzzles/DigitalFlipper/MAT_DigitalFlipper_Plastic.uasset",
+      "Deadlock/Content/Puzzles/DigitalFlipper/MAT_DigitalFlipper_Steel.uasset",
+      "Deadlock/Content/Puzzles/Gyrophone/MAT_Device_Steel.uasset",
+      "Deadlock/Content/Puzzles/Gyrophone/MAT_Gyro_Connector_01.uasset",
+      "Deadlock/Content/Puzzles/Gyrophone/MAT_Gyrophone_Chassi_02.uasset",
+      "Deadlock/Content/Puzzles/Gyrophone/MAT_Gyrophone_Chassi_03.uasset",
+      "Deadlock/Content/Puzzles/Gyrophone/MAT_Gyrophone_Chassi_04.uasset",
+      "Deadlock/Content/Puzzles/Gyrophone/MAT_Gyrophone_Chassis_03.uasset",
+      "Deadlock/Content/Puzzles/Gyrophone/MAT_Plastic_Old_Dirty_01_INST.uasset",
+      "Deadlock/Content/Puzzles/Gyrophone/MAT_Plastic_Old_Dirty_01_INST2.uasset",
+      "Deadlock/Content/Puzzles/Gyrophone/MAT_PoemDevice_Interior9.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/MAT_Chassi_Plastic_IntroPuzzle_01.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/MAT_Chassi_Plastic_IntroPuzzle_01_Inst.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/MAT_Chassi_Plastic_IntroPuzzle_01_Inst04.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/MAT_Chassi_Plastic_IntroPuzzle_01_Inst2.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/MAT_Chassi_Plastic_IntroPuzzle_01_Inst3.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/MAT_Chassi_Plastic_IntroPuzzle_01_Inst_02.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/MAT_Chassi_Plastic_IntroPuzzle_02.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/MAT_ControlPanel_01.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/MAT_ControlPanel_03.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/MAT_ControlPanel_04.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/MAT_ControlPanel_05.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/Materials/MAT_Gyrophone_Chassi_02.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/Materials/MAT_Gyrophone_Chassi_03.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/Materials/MAT_Introduction_Metal_01.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/Materials/MAT_Introduction_Metal_02.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/Materials/MAT_PoemDevice_Interior3.uasset",
+      "Deadlock/Content/Puzzles/IntroductionPuzzle/Materials/MAT_PoemDevice_Interior4.uasset",
+      "Deadlock/Content/Puzzles/Labyrinth/MAT_Labyrinth_Plywood01.uasset",
+      "Deadlock/Content/Puzzles/Labyrinth/MAT_Labyrinth_Plywood02.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_Gyrophone_Chassi_02.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_Gyrophone_Chassi_03.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Chassi.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Chassi_Inst2.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Chassi_Inst4.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Chassi_Inst5.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_ClickerRail.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Hatches04.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Interior10.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Interior2.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Interior3.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Interior6.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Interior7.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Interior8.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_Interior9.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_PoemDevice_TapeHolder.uasset",
+      "Deadlock/Content/Puzzles/PoemPuzzle/Materials/MAT_Poem_Cassette01.uasset",
+      "Deadlock/Content/Puzzles/Questionnaire/MAT_Question_Chassis_02.uasset",
+      "Deadlock/Content/Puzzles/Questionnaire/MAT_Question_Plastic.uasset",
+      "Deadlock/Content/Puzzles/Questionnaire/MaterialsAndTextures/MAT_Device_Steel02.uasset",
+      "Deadlock/Content/Puzzles/RadioLocationv2/MAT_RadioL_Chassi_NoAO.uasset",
+      "Deadlock/Content/Puzzles/RadioLocationv2/MAT_RadioL_Chassi_Plastic_01.uasset",
+      "Deadlock/Content/Puzzles/RadioLocationv2/MAT_RadioL_Plastic.uasset",
+      "Deadlock/Content/Puzzles/RadioLocationv2/MAT_RadioL_Plastic2.uasset",
+      "Deadlock/Content/Puzzles/RadioLocationv2/MAT_RadioL_Plastic3.uasset",
+      "Deadlock/Content/Puzzles/RadioLocationv2/MAT_RadioL_Steel.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/MAT_Ripper_Chassis.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/Materials/MAT_Gripper_Case.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/Materials/MAT_Gripper_Plastic.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/Materials/MAT_Gripper_Plastic2.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/Materials/MAT_Gripper_Steel.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/Materials/MAT_RipperArm_Plastic.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/Materials/MAT_RipperArm_Shell.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/Materials/MAT_RipperArm_Steel.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/Materials/MAT_RipperArm_Steel2.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/Materials/MAT_Ripper_Plastic.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/Materials/MAT_Ripper_Steel.uasset",
+      "Deadlock/Content/Puzzles/RipperPuzzle/Materials/MAT_Ripper_Steel_2.uasset",
+      "Deadlock/Content/Puzzles/SilhouetteHolev2/MAT_Chassi_Plastic_Silhouette_01.uasset",
+      "Deadlock/Content/Puzzles/SilhouetteHolev2/MAT_Silhouette_Chassi_Plastic_01_Inst.uasset",
+      "Deadlock/Content/Puzzles/SilhouetteHolev2/MAT_Silhouette_MainMetal_Inst.uasset",
+      "Deadlock/Content/Puzzles/SilhouetteHolev2/MAT_Silhouette_MechanicalArm_Metal_Inst.uasset",
+      "Deadlock/Content/Puzzles/SilhouetteHolev2/MAT_Silhouette_Screwdriver_Metal_Inst.uasset",
+      "Deadlock/Content/Puzzles/TugOfWarv2/MAT_Chassi_Plastic_TugOfWar_01_Inst.uasset",
+      "Deadlock/Content/Puzzles/TugOfWarv2/MAT_Chassi_RailDevice_TugOfWar_01_Inst.uasset",
+      "Deadlock/Content/Puzzles/TugOfWarv2/MAT_DevicePlastic_01_TugOfWar_Inst_01.uasset"
+    ],
+    "excluded_policy": "UVReveal|UV_Reveal|Glow|Emissive|Screen|Monitor|Button|SliderSwitch|Painting|Hint|Note|Tag|Logo|Anonym|Particle|Lens|Glass"
+  }
+]

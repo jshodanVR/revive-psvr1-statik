@@ -1,0 +1,13 @@
+{
+  "mode": "built-in ImageGen",
+  "prompts": {
+    "metal": "Generate one square seamless tileable grayscale HEIGHT MAP technical texture for extremely fine brushed metal microstructure, approximately 15 cm surface. Neutral mid-gray height, densely spaced fine nearly horizontal hairline grooves with subtle natural irregularity, uniformly distributed low relief. No large scratches, no dents, no seams, no objects, no panels, no text, no lighting, no shadows, no highlights, no color. Flat technical height data only, all opaque. It will be converted numerically into a subtle normal-map detail layer over preserved original game textures; do not generate a photograph or lit surface. Opposing edges must tile seamlessly.",
+    "fabric": "Generate one square seamless tileable grayscale HEIGHT MAP technical texture for fine tightly woven laboratory upholstery canvas. Neutral mid-gray height with small regular interlaced warp and weft thread relief and restrained fiber irregularity. Approximately 15 cm surface; densely woven many tiny threads, not a coarse basket weave. Even depth, no folds, no holes, no stitching, no edges, no objects, no text, no lighting, no shadows, no highlights, no color. Flat technical height data only, all opaque. It will be converted numerically into a subtle normal-map detail layer over preserved original game textures; do not generate a photograph or lit fabric. Opposing edges must tile seamlessly."
+  },
+  "usage": "New technical height sources only. Original game artwork and material parameters are preserved; generated microstructure is converted numerically to bounded surface deltas.",
+  "sources": {
+    "metal": "statik-metal-height.png",
+    "fabric": "statik-fabric-height.png",
+    "plastic": "statik-paint-height.png"
+  }
+}

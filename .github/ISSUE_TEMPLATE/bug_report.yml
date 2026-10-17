@@ -1,0 +1,27 @@
+name: Statik bug report
+description: Report a reproducible Windows PCVR problem.
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Build or commit
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Headset, controllers, OpenXR runtime, GPU and driver
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Level, reproduction steps, expected and observed behavior
+      description: Include resolution scale, Enhanced setting, affected eye(s), and whether a PC gamepad was connected.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Diagnostic logs
+      description: Use Collect PCVR Logs.bat and review the archive for personal information. Do not attach PKGs, extracted game files or private keys.

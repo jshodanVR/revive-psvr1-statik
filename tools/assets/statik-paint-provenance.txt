@@ -1,0 +1,32 @@
+STATIK ENHANCED PAINT - intro-paint-v3
+
+This describes the original paint component, retained by surfaces-v4.
+The complete current pack is built by tools/build-statik-surfaces.py; see also
+statik-surfaces-manifest.json and statik-surfaces-provenance.json.
+
+Source: statik-paint-height.png, generated using the built-in ImageGen tool.
+Generation brief:
+Square seamless grayscale technical height map for a premium, lightly used
+molded painted laboratory casing. Neutral middle-gray flat base height, fine
+orange-peel microstructure, sparse shallow darker scratches. Approximately
+15 cm of surface per tile. Uniform technical map with no directional lighting,
+shadows, reflections, color, text, logos, joints, holes or borders. Entire image
+opaque. Intended as height data from which matched normal and roughness maps
+will be derived numerically, not a photograph with baked-in illumination.
+
+Rebuild with tools/build-statik-material.py, Pillow and numpy, using the local
+original CUSA06929 game. The builder removes edge discontinuities, derives
+normal/roughness/color from one height field, preserves the original orange
+base color, and bakes all mips with alpha validation. Normal mips renormalize
+vectors and transfer lost normal variance into roughness to reduce shimmer.
+The generated source is not itself mounted in the game.
+
+Runtime delivery: statik-enhanced-material.bin is a hash-locked copy/insert
+recipe. It reconstructs three uniquely named texture assets and one material
+instance from verified local originals. No shared texture assets are replaced.
+Only the Enhanced=true launcher path builds and mounts the resulting PAK.
+Enhanced=false removes the managed PAK before starting the game.
+
+Rebuilding requires synchronizing the binary and MaterialPackHash in
+StatikEnhanced.cs, then rerunning the static and ON/OFF runtime checks.
+The runtime launcher needs neither Python, Pillow, numpy nor ImageGen.

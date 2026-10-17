@@ -1,0 +1,117 @@
+AUTOMATIC PACKAGE PREPARATION - WINDOWS PCVR - 7 OCTOBER 2026
+
+READ-ONLY SOURCE FIX - 8 OCTOBER 2026
+The friend reported UnauthorizedAccessException while opening the source PKG
+through MemoryMappedFile.CreateFromFile. PkgTool's pkg_extract command uses
+the overload whose default mapping access is ReadWrite, despite its later
+views being Read-only. Metadata commands use File.OpenRead and can therefore
+recognize a package that pkg_extract subsequently cannot open. This exception
+does not establish damaged PKG content. The supplied stack trace names Rush
+CUSA02350; the previous screenshot named WipEout, so they are separate attempts.
+
+Non-Astro importers now use PcvrPkgExtract.exe for full extraction, linked to
+the unchanged bundled LibOrbisPkg.dll. Both the file handle and memory map
+explicitly request Read access, with FileShare.Read. Original PkgTool remains
+unchanged for metadata commands. Source: tools/pcvr-pkg-extract.cs; rebuild with
+tools/build-pcvr-pkg-extract.ps1 using the Windows .NET Framework compiler.
+The existing long-path runtime configuration is supplied to both frontends.
+Failures return a normal exit code and stderr; access denials have a dedicated
+launcher explanation. No source attributes/ACLs are changed and no elevation
+is required. Actual read permission is still required; games must be writable.
+
+Regression: an independent 783,417,344-byte Thumper 01.06 update copy was marked
+read-only. Original PkgTool reproduced UnauthorizedAccessException. The new
+importer installed it successfully while another reader held FileShare.Read.
+Every extracted file and the full file set match the existing working update;
+the source SHA256 and read-only attribute remain unchanged. Metadata/import
+planning and failure/hash tests also pass on Windows PowerShell 5.1.
+Evidence: build/diagnostics/pkg-readonly-*-20261008.log and
+tools/tests/pcvr-package-readonly-test.ps1. The friend's specific Y: drive
+permissions remain unverified; this fixes the reproduced unnecessary-write case.
+Upstream source: https://github.com/maxton/LibOrbisPkg/blob/master/PkgTool/Program.cs
+
+Applies to WipEout, Statik, Thumper, Rush of Blood, Farpoint, Blood & Truth and VR Worlds.
+Astro's original importer is unchanged.
+
+PLAYER FLOW
+Put game dump PKGs in games, then start the matching Play BAT. Packages are
+identified by their internal title ID, category and version, not filenames.
+If the complete supported combination is available, extraction is automatic.
+Otherwise a preparation window shows base game and update status separately.
+There is no file picker. Open games folder, copy the missing PKGs there, and
+click Check again after copying has finished. The folder is scanned again.
+CUSA IDs in filenames identify candidates that need explicit rejection errors;
+the internal title ID, category and version remain authoritative. Renamed
+packages without CUSA IDs are still checked by metadata.
+
+Only update present: retain recognition and ask for the base game.
+Only base present: ask for the supported update when this build needs one.
+Statik, Rush and VR Worlds: no unnecessary update request.
+Wrong title/version: show expected title ID/version and what was found.
+Duplicate matching packages: keep one copy in games; move others outside games.
+Bad header/content ID/category: show the specific reason and diagnostic path.
+Installed base + missing update: retain the base and import only the update.
+Cancel: close normally without extracting or launching anything.
+Prepare and play remains disabled until all required parts are available.
+
+SUPPORTED CONFIGURATIONS
+WipEout       CUSA05670  base + 01.07 update
+Thumper       CUSA03559  base + 01.06 update
+Farpoint      CUSA04508  base + 01.08 update
+Blood & Truth CUSA11098  base + 01.11 update
+Statik        CUSA06929  base 01.00
+Rush of Blood CUSA02350  base 01.00
+VR Worlds     CUSA01690  APP_VER 01.00 / VERSION 01.04 (not playable)
+These are this build's tested configurations, not minimum console versions.
+Recognizing or extracting a package does not establish game compatibility.
+
+EXTRACTION AND RECOVERY
+Only extractable dump packages are supported. Original PKGs and saves are kept.
+The base and update have separate uroot and uroot-UPDATE destinations. Each
+extraction is staged, checked, and only then promoted. An existing destination
+is preserved as a backup. Failed temporary copies are not launched. A lock
+prevents concurrent importers from writing the same installation.
+Statik additionally checks its archive index bounds and SHA1. An invalid copy
+can be repaired from the available base PKG, preserving the damaged copy.
+
+Long filenames in Rush and Blood & Truth exposed a real PkgTool/.NET failure
+during the clean-install tests. The importer now supplies extended Windows
+paths, uses a local .NET runtime configuration, and validates the extracted
+tree through long-path-aware .NET calls on Windows PowerShell 5.1. No registry
+changes, system-wide runtime edits or administrator permissions are needed.
+Extractor exit codes/stderr are reported by the launcher; a failed extraction
+does not leave the Windows unhandled-exception dialog waiting for a user.
+
+October 9 follow-up: correct extraction is not sufficient if the emulator
+subsequently checks or opens a long host path through legacy Windows APIs.
+Guest mount resolution and IOFile now normalize long drive/UNC paths to the
+extended Windows form before existence checks and file opening. A real
+filesystem/CRT test verifies byte-for-byte readback beyond 260 characters.
+All 27 distinct missing Rush streams in the friend's October 8 recording exist
+locally and exceed that limit under the friend's installation root. This does
+not prove those files exist on that PC: use repair if extraction omitted them.
+No game asset renaming, registry change or administrator access is required.
+
+VERIFICATION
+Before adding VR Worlds, all six titles were freshly extracted from local PKGs, including all four
+required updates, and a second invocation reused each installation. Astro was
+excluded. Automated tests also cover update-first, base-first, separate source
+folders, unsupported versions, duplicates, wrong titles, cancellation, import
+locking, long filenames, junction rejection, and Statik archive repair.
+Additional real extraction/repair tests use paths with spaces and brackets.
+Full SHA256 comparison of all 132,969 previously extracted files found no
+missing or changed files. Farpoint additionally received 36 sce_sys metadata
+files omitted by the earlier manual extraction; game assets were unchanged.
+Local evidence: build/diagnostics/pcvr-compat-20261007/fresh-import and
+tools/tests/pcvr-packages-test.ps1 (Windows PowerShell 5.1).
+
+The previously delivered ZIP is not modified by changing this working copy.
+Future releases must include tools/pkgtool-runtime.config and the matching
+pcvr-packages.ps1 / launch-psvr-test.ps1 together with PkgTool and its libraries.
+
+INTEGRATION FOLLOW-UP
+VR Worlds was freshly imported successfully. Metadata tests now cover twelve
+local PKGs, including the duplicate backport. New scan tests cover update-only,
+a base added later with no CUSA filename, a misleading title filename and a
+truncated header. Every probe records package-metadata.jsonl in its import
+work directory. Collect PCVR Logs includes the latest ten such logs.

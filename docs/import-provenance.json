@@ -1,0 +1,10 @@
+{
+  "imported": "2026-10-17",
+  "source_project": "PSVR1-Revive development workspace",
+  "base_commit": "ab1252145edbd82bb1733aff94a30405bf778c0b",
+  "working_tree_changes_included": true,
+  "history_imported": false,
+  "upstream": "https://github.com/bigmak94/AstroQuest",
+  "dependency_layout": "Vendored source snapshots; revisions in dependencies.json. No local Git metadata copied.",
+  "game_data_included": false
+}

@@ -1,0 +1,35 @@
+WINDOWS PCVR SUPPORT DIAGNOSTICS
+
+For a new headset/controller combination, including the friend's planned Steam
+Frame test, compatibility must be established from the active OpenXR runtime.
+Do not infer the interaction profile from headset branding or from a successful
+binding suggestion alone. No Steam Frame hardware test has been performed here.
+
+Every launch records user/log/pcvr-launch.json and a timestamped copy:
+title, UTC time, exact player SHA256, Windows/PowerShell versions, GPU/driver,
+OpenXR runtime manifest candidates and override, API-layer settings, effective
+launcher options, settings/capability marker and previous cached FOV.
+The core's shad_log.txt identifies the runtime actually opened, headset name,
+session states/focus, per-eye resolution/FOV, tracking, controller bridge use,
+input-source selection, input summaries, frame delivery and errors. Normal interactive
+launches enable bounded periodic HMD layout/pose logging; no GPU captures or
+validation layers are enabled for this support logging.
+
+Integrated RevivePSVR1 players all include suggested and active controller-profile
+logging. A hash-bound capability marker records whether that exact executable
+supports these logs. Old separately retained players may have less evidence;
+a missing profile line is not proof of disconnected controllers. Bindings cover
+Touch, Index, Microsoft motion and Vive profiles, without claiming every physical
+device has been tested. Input selection follows the actively used gamepad or
+VR controllers; Astro-specific gestures do not consume other titles' controls.
+
+After a problem, close the game and run Collect PCVR Logs.bat. It creates a local
+output/PCVR-support-<timestamp>.zip, without uploading anything. Collection uses
+an explicit allowlist of latest launcher/core logs, console/errors, settings,
+capabilities, cached optics and package build information. It also preserves the
+latest previous emulator log where present, plus the latest ten importer metadata
+logs (header, tool identity, detected category/version and exact rejection reason).
+It excludes game payloads/PKGs, saves,
+accounts, shader dumps and caches. Logs can contain local paths and device names.
+Describe the title, symptom, point in the game, headset/controller/runtime,
+whether a PC gamepad was connected, and whether tracking or only buttons failed.

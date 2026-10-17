@@ -1,0 +1,125 @@
+WINDOWS PCVR / OPENXR TARGET
+7 October 2026
+
+The target is Windows PCVR with an OpenXR runtime, independently of headset
+brand. Pimax Dream Air is the user's test headset, not a project requirement.
+The upstream author's Virtual Desktop/VDXR setup is another tested setup,
+not an architectural dependency. No Android/standalone Quest build is involved.
+The renderer currently requires XR_KHR_vulkan_enable. Runtime/device discovery
+alone does not establish correct stereo, input, audio or frame pacing.
+
+HEADSET AND CONTROLLER COMPATIBILITY ARE SEPARATE
+Head/eye poses, field of view and presentation come from OpenXR. Tracked VR
+controllers use OpenXR action profiles, not Pimax-specific code and not optical
+hand tracking. A physical DualShock/DualSense uses the separate PC gamepad path;
+without a tracked pose, its virtual position uses the existing fallback.
+
+New source bindings: Oculus Touch, Valve Index, Microsoft motion controller,
+HTC Vive controller, and native Valve Frame (when its extension is offered). A rejected profile no longer prevents trying other ones.
+The runtime can expose a compatible profile for other controller models. Logs
+report the active profile for each hand; the advertised controller profile,
+rather than the headset's brand, determines which mapping applies.
+Legacy mappings pass bundled Khronos registry path/type checks; Frame uses an
+independent fixture from Valve's published paths because this SDK predates it.
+They have NOT all been exercised on physical devices. Unknown profiles and
+controllers with fewer controls can need additional bindings or compromises.
+Do not advertise universal compatibility as already verified.
+
+STEAM FRAME USER FEEDBACK - 8 OCTOBER 2026
+The tester reports that all buttons now work on Steam Frame. No Frame logs
+were supplied because the button issue was resolved in their test. Treat this
+as positive user hardware feedback, not a recorded per-action/profile audit.
+The supplied Pimax/Touch logs belong to a different runtime and must not be
+used to invalidate or certify that Frame result.
+
+NATIVE FRAME MAPPING
+The full-gamepad mapping applies to the shared emulated DualShock path across
+titles, not only Statik. Preserve separate physical D-pad and face buttons,
+both analog sticks and clicks, bumpers, triggers, Menu and View. Native Frame
+must not inherit reduced-controller shortcuts that replace the right analog
+stick with a D-pad. Touchpad gestures remain an emulation feature, not a
+physical DualShock touch surface on Frame.
+The runtime must offer XR_VALVE_frame_controller_interaction and activate
+/interaction_profiles/valve/frame_controller_valve. If it uses Touch fallback,
+Frame's D-pad and extra face buttons cannot all be distinguished.
+- Right A/B/X/Y = PS4 Cross/Circle/Square/Triangle; left D-pad = PS4 D-pad.
+- Bumpers = L1/R1, triggers = L2/R2. Grips remain available for Move/Aim.
+- Both sticks = PS4 analog sticks, clicks = L3/R3. Both clicks recenter.
+- Right Menu = Options. Left View = touchpad click; hold View and move the
+  right stick to drag a finger on the touchpad. Without View it stays analog.
+- In two-Move mode, left D-pad and right ABXY are the four face buttons for
+  each independent Move; triggers/grips remain Trigger/Move.
+- The WipEout/Thumper legacy stick-to-D-pad override does not replace Frame's
+  native right stick. The physical D-pad remains independent.
+Source: https://partner.steamgames.com/doc/steamhardware/steamframe/input
+
+MIXED PC GAMEPAD AND VR CONTROLLERS
+Choose Automatic mode. Both sources can stay connected. Button ownership
+follows deliberate input with echo suppression for streaming-generated pads.
+VR position tracking continues when the PC gamepad supplies buttons. It does
+not require optical hand tracking. Focus/tracking loss still releases poses.
+For the non-Astro DualShock bridge, press a physical pad button and deliberately
+turn that pad to restore its gyro and the configured virtual position. Mere
+resting gyro noise does not take over. Buttons alone retain mixed VR tracking.
+Use a face/menu button, stick or deliberate trigger pull to switch back to VR
+buttons and tracked motion. PC gamepad only mode intentionally disables VR
+controller input. This motion-ownership policy still needs physical acceptance.
+
+LEGACY GAMEPAD / AIM MAPPING
+- Touch: right A=Cross, B=Square; left X=Circle, Y=Triangle.
+- Index: right A=Cross, B=Square; left A=Circle, B=Triangle.
+  Press left trackpad for Options; system buttons remain owned by the runtime.
+- Microsoft motion: sticks remain sticks; click right trackpad center/down
+  for Cross, left for Square, right for Circle, up for Triangle.
+- Vive: pads replace sticks; right pad clicks use the same face-button sectors.
+  A pad click can therefore also move its axis. Vive lacks separate stick clicks,
+  so L3/R3 and the dual-stick recenter shortcut have no equivalent in this map.
+- Left/right trigger=L2/R2; grips=L1/R1; left menu=Options where available.
+- For titles using two Move devices, each controller's pad sectors produce the
+  face buttons of that Move. Trigger/grip remain Trigger/Move independently.
+- In ordinary gamepad emulation the right stick drives the virtual touchpad,
+  except the updated Statik layout below and titles with a directional-pad override. In Aim mode it
+  supplies the real right analog stick and R3, not a virtual touchpad.
+
+FARPOINT AIM (EXPERIMENTAL)
+Disconnect PC gamepads, select 'Two VR controllers: Aim gun (experimental)'.
+The right controller is the rear hand by default. Hold the left grip and place
+the left hand ahead of it to steer one weapon from both tracked hands. Releasing
+the support grip or losing support tracking returns to one-handed pointing.
+Loss of primary tracking does not fabricate a still-tracked gun.
+The real OpenXR path uses grip positions for both hands, with the primary aim
+orientation for one-handed pointing, avoiding mixed profile-dependent origins.
+Farpoint sees one Gun/Aim device, not two Move devices. Menus in the room require
+aiming at the button and pulling the right trigger; repeated Cross is insufficient.
+The fixed virtual-gamepad distance controls do not position the tracked Aim.
+Physical alignment, haptics, movement, reload and sustained play remain to test.
+
+HISTORICAL ROLLOUT (SEE BUILD-INFO.JSON FOR THE CURRENT RELEASE)
+Wipeout player 922D9B2F (7 October) includes these profiles together with its
+HMD graphics-order fix. See WIPEOUT-PCVR.txt for the controlled test results.
+These are source changes. Each game's pcvr-features.json describes the actual
+deployed binary by hash; see FARPOINT-PCVR.txt and STATIK-PCVR.txt for deployment.
+Older distributed ZIPs and the unchanged Astro player do not automatically gain
+these profiles. See PCVR-DIAGNOSTICS.txt for per-player logging coverage and
+Collect PCVR Logs.bat for support reports from new headset/controller combinations.
+
+STATIK COMPLETE GAMEPAD LAYER - 9 OCTOBER 2026 r2
+Applies to the r2 Statik player only; Frame keeps its native mapping above.
+Touch/Pimax: right A=Cross, B=Square; left X=Circle, Y=Triangle.
+Index: left A=Circle, B=Triangle; left trackpad press is Menu/modifier.
+Triggers L2/R2; grips L1/R1. Both sticks analog; clicks L3/R3.
+Hold Menu: left stick becomes D-pad, right stick controls touchpad finger,
+right stick click presses touchpad. Release after using this layer does not
+pause. A plain Menu tap sends Options on release.
+Statik/WipEout fallback Menu: hold left stick click and press right A.
+The chord consumes Cross/L3. In Statik it can also be held as the modifier.
+Both stick clicks outside the modifier recenter. PC pad: hold Options/Start
+for one second to recenter view and virtual-pad yaw. PS/Share are not gameplay
+buttons. Vive wands lack independent stick clicks and cannot cover every input.
+Physical Pimax/Index first-puzzle coverage remains unverified by these tests.
+
+TRACKED HAND SELECTION
+Each applicable launcher offers right/left for virtual gamepad or Aim pose.
+Default is right. Buttons stay mapped to their physical hands. In Aim mode,
+use the opposite grip for support. This setting has no effect in PC gamepad
+only mode or on an independent emulated Move pair.
