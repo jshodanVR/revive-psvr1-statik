@@ -1,77 +1,32 @@
-# Statik distribution notice
-
-This repository targets Windows PCVR only. The upstream notices below are
-retained for attribution; Android/Quest runtime components are not distributed
-as part of this project. Dependencies are vendored source snapshots.
-Our read-only PKG extraction helper is built from `tools/pcvr-pkg-extract.cs`;
-the separately supplied PkgTool/LibOrbisPkg binaries retain their own license.
-Generated Enhanced recipes and controls artwork are project assets; game-derived
-PAKs are built locally and are not included in the repository.
-
 # Third-party notices
 
-AstroQuest itself is licensed under GPL-2.0-or-later (see [LICENSE](LICENSE)). The release files
-also contain, or are built with, the following parts made by others. Each keeps its own license;
-the source of every part is listed with it.
+RevivePSVR1 - Statik is licensed under GPL-2.0-or-later; see [LICENSE](LICENSE).
+Original copyright and SPDX notices remain in the source. Dependencies retain
+their own licenses. The Windows release includes these components:
 
-## Quest app (`AstroQuest-<version>-Quest3.apk`)
-
-| Part | License | Source |
+| Component | License | Corresponding source |
 | --- | --- | --- |
-| The emulator (`shadps4-arm64-fex` in `assets/runtime.zip`): shadPS4 with the shadps4-arm64 changes and this project's | GPL-2.0-or-later | this repository, `shadps4-arm64-main/` (from [zenithblue-oss/shadps4-arm64](https://github.com/zenithblue-oss/shadps4-arm64), based on [shadPS4](https://github.com/shadps4-emu/shadPS4)) |
-| The libraries built into the emulator (`shadps4-arm64-main/externals`: SDL3, fmt, Boost, glslang, sirit, Vulkan Memory Allocator, zlib-ng, xxHash, FFmpeg's core and others) | their own licenses (zlib, MIT, BSL-1.0, BSD, LGPL...), in each folder | the source snapshots listed in [dependencies.json](docs/dependencies.json) |
-| FEXCore, linked into the emulator | MIT | [FEX-Emu/FEX](https://github.com/FEX-Emu/FEX), fetched and patched by `shadps4-arm64-main/runtime/scripts/build-fexcore-smoke-aarch64.sh` |
-| The app (`libastrovr.so`, `classes.dex`) and `libkgsl_compat.so` | GPL-2.0-or-later | this repository, `quest-host/` |
-| LLVM libc++, linked into `libastrovr.so` | Apache-2.0 WITH LLVM-exception | [Android NDK](https://developer.android.com/ndk) / [LLVM](https://github.com/llvm/llvm-project) |
-| Khronos OpenXR loader for Android 1.1.63 (`libopenxr_loader.so`) | Apache-2.0 | [KhronosGroup/OpenXR-SDK-Source](https://github.com/KhronosGroup/OpenXR-SDK-Source), release 1.1.63 |
-| The GNU C Library 2.41 and its dynamic loader (`libc.so.6`, `libm`, `libdl`, `libpthread`, `librt`, `libresolv`, `libutil`, `ld-linux-aarch64.so.1`, the latter shipped as `libastro_ld.so`) | LGPL-2.1-or-later | Debian 13 `glibc` source package, with the Android compatibility patches in `shadps4-arm64-main/runtime/patches/glibc-android-sysvshm/` and `runtime/scripts/glibc-android-seccomp.mjs` |
-| GCC runtime (`libstdc++.so.6`, `libgcc_s.so.1`) | GPL-3.0-or-later WITH GCC-exception-3.1 | Debian 13 `gcc-14` source package |
-| X11 and XCB client libraries, libxkbcommon, libxshmfence, libdrm, libexpat, libffi, libwayland-client | MIT / X11 | Debian 13 source packages of the same names |
-| libsystemd, libudev | LGPL-2.1-or-later | Debian 13 `systemd` source package |
-| libdbus-1 | AFL-2.1 or GPL-2.0-or-later | Debian 13 `dbus` source package |
-| libcap | BSD-3-Clause or GPL-2.0-only | Debian 13 `libcap2` source package |
-| libuuid | BSD-3-Clause | Debian 13 `util-linux` source package |
-| zlib | Zlib | Debian 13 `zlib` source package |
-| Vulkan loader (`libvulkan.so.1`), SPIRV-Tools | Apache-2.0 | [KhronosGroup/Vulkan-Loader](https://github.com/KhronosGroup/Vulkan-Loader), [KhronosGroup/SPIRV-Tools](https://github.com/KhronosGroup/SPIRV-Tools), as packaged by Debian 13 |
-| Mesa Turnip Vulkan driver for Adreno (`libvulkan_freedreno.so`) | MIT | [Vauzi-17/mesa-tu8](https://github.com/Vauzi-17/mesa-tu8), branch `gen8`, commit `9e646d59830fa220fff9a94ef2ed4a6ce418e254`, with Bachata S4's `kgsl-zero-timeout-poll` patch |
+| Modified emulator, launcher and package helper | GPL-2.0-or-later | This repository, at the release tag; the build manifest also records the exact compiled player revision |
+| Libraries linked into the emulator | Their individual licenses | Vendored under `shadps4-arm64-main/externals`; origins and revisions in `docs/dependencies.json` |
+| OpenXR loader | Apache-2.0 | Vendored `shadps4-arm64-main/externals/openxr-sdk` |
+| FFmpeg core | See its included license notices | [ext-ffmpeg-core](https://github.com/shadps4-emu/ext-ffmpeg-core/tree/94dde08c8a9e4271a93a2a7e4159e9fb05d30c0a), pinned revision 94dde08; see BUILD.md |
+| PkgTool and LibOrbisPkg 0.2.231 | LGPL-3.0 | [LibOrbisPkg v0.2](https://github.com/maxton/LibOrbisPkg/releases/tag/v0.2); binaries remain unchanged |
 
-The Linux runtime (everything from glibc to the Turnip driver above) is taken unchanged from
-the [Bachata S4 v0.2.4](https://github.com/JICA98/Bachata-S4/releases/tag/v0.2.4) release,
-whose notice (`shadps4-arm64-main/NOTICE.android-runtime.md`) and lock files
-(`shadps4-arm64-main/runtime/locks/`) record the exact packages.
+The ZIP includes dependency notices under `licenses` and the package tool's
+license under `pc-vr/pkgtool`. Full source is available from this repository's
+release tag. The Microsoft Visual C++ runtime is a separate prerequisite and
+is not distributed in the ZIP.
 
-## PC build (`AstroQuest-<version>-PC-VR-Windows.zip`)
+## Source attribution
 
-| Part | License | Source |
-| --- | --- | --- |
-| The emulator (`shadps4.exe`) and the launcher (`launch.ps1`, `Play Astro Bot VR.bat`) | GPL-2.0-or-later | this repository |
-| The libraries built into the emulator (`shadps4-arm64-main/externals`) | their own licenses, in each folder | the source snapshots listed in [dependencies.json](docs/dependencies.json) |
-| Khronos OpenXR loader 1.1.63, built into the emulator | Apache-2.0 | `shadps4-arm64-main/externals/openxr-sdk` ([KhronosGroup/OpenXR-SDK](https://github.com/KhronosGroup/OpenXR-SDK), release 1.1.63) |
-| PkgTool and LibOrbisPkg 0.2.231 (`pc-vr/pkgtool`), unchanged: the launcher runs it to unpack a game package | LGPL-3.0 | [maxton/LibOrbisPkg](https://github.com/maxton/LibOrbisPkg), release [v0.2](https://github.com/maxton/LibOrbisPkg/releases/tag/v0.2) |
+The emulator derives from [shadPS4](https://github.com/shadps4-emu/shadPS4),
+[shadps4-arm64](https://github.com/zenithblue-oss/shadps4-arm64), and
+[AstroQuest](https://github.com/bigmak94/AstroQuest).
+Inherited changes from [evertec82/Farpoint](https://github.com/evertec82/Farpoint)
+are recorded at revision `de6d8df1165aac8e09d90febfb4fb6a30384f48c`.
+Packed render-target export work credits shadPS4 PR #5279 by ArtemkaVG.
+See `docs/PROVENANCE.md` and the source headers for provenance and attribution.
 
-The emulator needs the Microsoft Visual C++ runtime, which is not included: it comes with the
-[Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe).
-
-## Source of the GPL and LGPL parts
-
-PSVR1-Revive (previously RevivePSVR1) also integrates selected Windows PCVR fixes from
-[evertec82/Farpoint](https://github.com/evertec82/Farpoint), pinned at
-`de6d8df1165aac8e09d90febfb4fb6a30384f48c` (GPL-2.0-or-later).
-These include staged file reads, callback ownership, texture subresource matching,
-Farpoint lighting readbacks and LUT preservation, controller port routing, C-locale
-tables, crash diagnostics and the locally generated Farpoint 1.00 profiles.
-Packed render-target exports in that work credit shadPS4 PR #5279 (ArtemkaVG).
-See `docs/FARPOINT-INTEGRATION-20261009.txt` for adaptations and validation.
-Game-derived profile PAKs are generated locally from the user's files and are
-excluded from source and release archives.
-
-The source of AstroQuest itself is this repository, at the tag of each release. For the GPL
-and LGPL parts made by others (the Linux runtime in the Quest app, the libraries built into
-the emulators from `shadps4-arm64-main/externals`, and PkgTool), a copy of the exact source
-used is available on request for three years from each release: open an issue on this
-repository.
-
-## Not included
-
-No part of ASTRO BOT Rescue Mission, of the PlayStation 4 system software, or any key or other
-copyrighted console file is part of this repository or of its releases.
+The authored controls artwork and Enhanced recipes are project assets. Game-derived
+overrides are generated locally from the user's files. No game package, extracted
+game, firmware, generated game PAK or personal save is distributed.
